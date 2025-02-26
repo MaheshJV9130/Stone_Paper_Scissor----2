@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav><h1>Stone Paper Scissor</h1></nav>
+    </header>
+    <main>
+      <div class="selectedChoises">
+        <div class="user">
+          <img src="images/stone.png" alt="" />
+          <p>You</p>
+        </div>
+        <p>Vs</p>
+        <div class="computer">
+          <img src="images/stone.png" alt="" />
+          <p>Computer</p>
+        </div>
+      </div>
+      <div class="winner">
+        <p>Play Your Move!</p>
+      </div>
+      <div class="userChoises">
+        <div >
+          <img src="images/stone.png" alt="" class="hover" id="stone"/>
+        </div>
+        <div >
+          <img src="images/paper.png" alt="" class="hover" id="paper"/>
+        </div>
+        <div >
+          <img src="images/scissor.png" alt="" class="hover" id="scissor"/>
+        </div>
+      </div>
+
+      <div class="reset">
+        <button type="reset" id="reset">Reset</button>
+      </div>
+    </main>
+    <footer>
+      <p>Made By Mahesh</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
